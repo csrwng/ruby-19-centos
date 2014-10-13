@@ -5,6 +5,6 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-tar -C / -xf -
+tar -C /tmp -xf -
 
 exec /tmp/scripts/$1
